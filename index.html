@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Hoja de estilos -->
+    <link rel="stylesheet" href="normalize.css" type="text/css">
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://api.fonts.coollabs.io">
+    <link rel="preconnect" href="https://api.fonts.coollabs.io" crossorigin>
+    <link href="https://api.fonts.coollabs.io/css2?family=Martian+Mono:wght@100..800&display=swap" rel="stylesheet">
+    
+    <title>Mi Biografía</title>
+</head>
+<body>
+    <main>
+        <!-- Encabezado principal -->
+        <header>
+            <h1>Maro Saracco Cantoral</h1>
+        </header>
+
+        <!-- Sección de biografía -->
+        <section>
+            <h2>Sobre mí</h2>
+            <p>Nací en Guadalajara y crecí en Tlaquepaque, rodeado de la rica cultura y tradiciones de Jalisco. Desde una edad temprana, desarrollé un amor por el diseño y la tecnología, lo que eventualmente me llevó a estudiar Diseño Gráfico en CUAAD. Mi pasión por la creatividad y la innovación me ha impulsado a explorar diferentes campos, incluyendo la animación y la programación web.</p>
+            <p>En mi tiempo libre, disfruto de la lectura, la música y los viajes. He tenido la oportunidad de visitar varios lugares hermosos, como Vallarta, Ixtapa, y el pueblo natal de mi abuelo, experiencias que han enriquecido mi visión del mundo y han influido en mi trabajo como diseñador.</p>
+        </section>
+
+        <!-- Sección de educación -->
+        <section>
+            <h2>Educación</h2>
+            <ol>
+                <li>Preescolar en Tlaquepaque</li>
+                <li>Primaria Francisco Romero</li>
+                <li>Secundaria No. 59 Mixta Revolución Mexicana</li>
+                <li>Preparatoria No. 5</li>
+                <li>Licenciatura en Diseño Gráfico en CUAAD</li>
+            </ol>
+
+            <h3>Cursos</h3>
+            <ol>
+                <li>Diplomado en Animación</li>
+                <li>Curso en Programación Web</li>
+                <li>Curso en Python</li>
+            </ol>
+        </section>
+
+        <!-- Sección de hobbies -->
+        <section>
+            <h2>Hobbies e intereses</h2>
+
+            <article id="carousel">
+                <button id="left-arrow">←</button>
+                <img class="slide" id="active-carousel-img" src="assets/love_cat.webp" alt="love" width="600">
+                <button id="right-arrow">→</button>
+            </article>
+
+        </section>
+
+        <!-- Sección de objetivos -->
+        <section>
+            <h2>Mi Meta: Desarrolladora Front-End</h2>
+            <p>En dos años y ocho meses, dominaré el mundo del desarrollo front-end. Con React, Angular, TypeScript, SASS y Bootstrap bajo mi cinturón, estaré lista para crear interfaces dinámicas y elegantes. Este es mi plan de trabajo detallado, que me guiará hacia mi meta.</p>
+            
+        <table>
+            <thead>
+                <tr>
+                    <th>Tecnología</th>
+                    <th>Horas</th>
+                    <th>Progreso</th>
+                    <th>Meta</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>React</td>
+                    <td>336</td>
+                    <td>6 de febrero 2025</td>
+                    <td>Dominar desarrollo de interfaces dinámicas</td>
+                </tr>
+                <tr>
+                    <td>Angular</td>
+                    <td>336</td>
+                    <td>24 de julio 2025</td>
+                    <td>Construir aplicaciones escalables</td>
+                </tr>
+                <tr>
+                    <td>Typescript</td>
+                    <td>90</td>
+                    <td>7 de septiembre 2025</td>
+                    <td>Mejorar el control sobre el código</td>
+                </tr>
+                <tr>
+                    <td>SASS</td>
+                    <td>78</td>
+                    <td>16 de octubre 2025</td>
+                    <td>Estilizar interfaces con precisión</td>
+                </tr>
+                <tr>
+                    <td>Bootstrap</td>
+                    <td>60</td>
+                    <td>15 de noviembre 2025</td>
+                    <td>Diseñar responsive con rapidez</td>
+                </tr>
+            </tbody>
+        </table>
+
+        </section>
+
+        <!-- Sección de contacto -->
+        <section>
+            <h2>Contacto</h2>
+            <form action="/" method="post">
+                <label for="name">¿Cuál es tu nombre?</label>
+                <input type="test" id="name" name="name-client" placeholder="">
+
+                <label for="email">Ingresa tu Email</label>
+                <input type="email" id="email" name="client-email" placeholder="your@mail.com">
+
+                <label for="message">Mensaje</label>
+                <textarea id="message" placeholder="" cols="50" rows="10"></textarea>
+            </form>
+        </section>
+
+        <!-- Pie de página -->
+        <footer>
+            <p>Esta es mi biografía. Gracias por leer.</p>
+        </footer>
+    </main>
+
+    <script src="index.js"></script>
+    
+</body>
+</html>

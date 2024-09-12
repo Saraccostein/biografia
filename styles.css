@@ -1,0 +1,56 @@
+:root {
+    --background-dark: oklch(28.82% 0.022 277.51);
+    --foreground-white: oklch(97.75% 0.008 106.55);
+    --primary-purple: oklch(74.2% 0.149 301.88);
+
+    --primary-font: "Martian Mono", monospace;
+}
+body {
+    background-color: var(--background-dark);
+}
+main {
+    font-family: var(--primary-font);
+    font-optical-sizing: auto;
+    color: var(--foreground-white);
+}
+
+h2 {
+    color: var(--primary-purple);
+    font-weight: 600;
+}
+
+button {
+    font-family: "Martian Mono", monospace;
+    font-size: 2em;
+    color: var(--primary-purple);
+    background-color: transparent;
+    border-radius: 5px;
+    font-weight: 800;
+    padding: 0.7rem 1.2rem 0.7rem 1.2rem;
+    border: 0.1rem solid var(--primary-purple);
+    cursor: pointer;
+}
+
+button:hover {
+    color: var(--background-dark);
+    background-color: var(--primary-purple);
+    box-shadow: 0.1rem 0.3rem 3rem 0.05rem oklch(19.56% 0.042 301.88);
+}
+
+button:active {
+    box-shadow: 0.05rem 0.05rem 2rem 0.03rem oklch(74.2% 0.149 301.88 / 30);
+}
+
+#carousel {
+    display: flex;
+    align-items: center;
+}
+.slide {
+    border-radius: 5px;
+    margin: 3rem;
+    box-shadow: 0.1em 0.6em 2em 0.05em oklch(19.56% 0.042 301.88 / 29.2%);
+}
+
+.slide:hover {
+    box-shadow: 0.05em 0.05em 0.9em 0.03em oklch(74.2% 0.149 301.88 / 30);
+}
